@@ -3,7 +3,6 @@ import { useAuth0 } from "@auth0/auth0-react";
 import { GlobalProvider } from "./context/GlobalState";
 import Header from "./components/Header";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
 import Movies from "./components/Movies";
 import Watched from "./components/Watched";
 import WatchList from "./components/WatchList";
