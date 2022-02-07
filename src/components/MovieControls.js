@@ -16,7 +16,6 @@ export default function MovieControls({ movie, type }) {
       {type === "watchlist" && (
         <>
           <button className="ctrl-btn" onClick={() => addMovieToWatched(movie)}>
-            // eslint-disable-next-line jsx-a11y/alt-text
             <img src="https://img.icons8.com/glyph-neue/64/000000/visible.png" />{" "}
             <br></br>
             Add Watched
