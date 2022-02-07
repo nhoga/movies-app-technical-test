@@ -1,8 +1,8 @@
 import React from "react";
 import { useLocation } from "react-router";
-
 import Fav from "./Fav";
 import MovieControls from "./MovieControls";
+
 const MovieCard = ({ movie, selectedMovie, type }) => {
   const location = useLocation();
   const show = !location.pathname.includes("watched", "watchlist");
